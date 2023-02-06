@@ -26,7 +26,7 @@ This div is then replaced with a new div that reloads itself every 600ms:
     hx-swap="outerHTML">
   <h3>Running</h3>
   <div class="progress">
-    <div id="pb" class="progress-bar" style="width:0%">
+      <div id="pb" class="progress-bar" style="width:0%"></div>
   </div>
 </div>
 ```
@@ -51,7 +51,8 @@ extension in this example):
 </div>
 <button id="restart-btn" class="btn" hx-post="/start" classes="add show:600ms">
   Restart Job
-</button> 
+</button>
+</div>
 ```
 
 This example uses styling cribbed from the bootstrap progress bar:
